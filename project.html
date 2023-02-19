@@ -1,46 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="pracise.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea Of Water</title>
+    <link rel="stylesheet" href="log in.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="about">
-        <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, augue vel tincidunt malesuada, velit velit pretium augue, et auctor nibh massa vel risus. Nullam auctor, magna a bibendum fringilla, risus magna pellentesque odio, eget fringilla lorem risus id magna. </p>
-    </section>
-    <section id="services">
-        <h1>Our Services</h1>
-        <ul>
-            <li>Service 1</li>
-            <li>Service 2</li>
-            <li>Service 3</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h1>Contact Us</h1>
-        <form action="submit-form" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea><br>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-    <footer>
-        <p>Copyright ©2022 My Website</p>
-    </footer>
+    <div class="main">
+        <div class="header">
+            <div class="icon"><h2 class="logo">Sea Of Water</h2>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">By Sea</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="search">
+                <button>search</button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Fishes In Sea & <br><span>Their names</span><br>How Are There</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, eius vel. Inventore sed nemo nobis magni iusto sequi molestiae, dolorum nesciunt? Nesciunt laboriosam nihil explicabo magni obcaecati animi voluptate aliquam!</p>
+            <button class="btn cn_btn">Contact Us</button>
+        </div>
+        <div class="form">
+            <h2>User Login</h2>
+            <input type="email" placeholder="Enter Your E-mail"><br>
+            <input type="password" placeholder="Enter your Password"><br>
+            <button class="btn log">Login</button><br>
+            <p class="link">You Don't Have An Account <br><a href="#">Sign up</a> Here.</p>
+            <p class="lginw">Login With</p>
+            <div class="icons">
+                <ion-icon name="logo-google"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-amazon"></ion-icon>
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
